@@ -404,5 +404,7 @@
       return !!raw ? hash : hex(hash);
     };
   })();
+
+  // log
   console.log('My Fingerprint is: ' + FingerPrint.id());
 })();
